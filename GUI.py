@@ -73,7 +73,7 @@ div.stButton > button:first-child:hover {
 st.markdown(page_bg, unsafe_allow_html=True)
 
 # Giao diện chính
-st.title("🧠 Bộ Trắc Nghiệm Trầm Cảm")
+st.title("Để kiểm tra dấu hiệu trầm cảm của bản thân, mời bạn trả lời các câu hỏi sau đây")
 
 # Nhập liệu
 age = st.number_input("Tuổi của bạn", min_value=10, max_value=100, value=20)
